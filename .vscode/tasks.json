@@ -5,11 +5,15 @@
             "label": "C/C++: g++ build active file",
             "command": "/usr/bin/g++",
             "args": [
+                "-I",             //nicvac
+                "${fileDirname}", //nicvac
                 "-fdiagnostics-color=always",
                 "-g",
-                "${file}",
+                //"${file}",  //nicvac
+                "*.cpp",      //nicvac
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
+                //"${fileDirname}/${fileBasenameNoExtension}" //nicvac
+                "${fileDirname}/main" //nicvac
             ],
             "options": {
                 "cwd": "${fileDirname}"
