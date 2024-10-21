@@ -12,3 +12,6 @@
 - [Source Control] sulla sinistra
 - **scrivere il messaggio** "Consegna" **nella casella di testo Message**
 - [Commit & Push] dal pulsante dropdown
+
+**Problemi di consegna**
+- La consegna risulta "appesa", senza procedere: non è stato inserito alcun testo nella la casella Message. 
