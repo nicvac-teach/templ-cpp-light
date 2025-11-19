@@ -12,6 +12,8 @@
 - [Source Control] sulla sinistra
 - **scrivere il messaggio** "Consegna" **nella casella di testo Message**
 - [Commit & Push] dal pulsante dropdown
+- Copiare il link di main.cpp e consegnarlo su classroom.
+<img alt="share" src="_doc/share.png" width="35%" /><br/>
 
 **Prof, ho un problema...**
 - Non riesco ad eseguire il programma, ottengo un errore del tipo "non trovo il file launch.json"
